@@ -1,0 +1,10 @@
+name: Subfolders
+form: $/pensoft/icp/models/subfolders/fields.yaml
+modelClass: Pensoft\Icp\Models\Subfolders
+defaultRedirect: pensoft/icp/subfolders
+create:
+    redirect: 'pensoft/icp/subfolders/update/:id'
+    redirectClose: pensoft/icp/subfolders
+update:
+    redirect: pensoft/icp/subfolders
+    redirectClose: pensoft/icp/subfolders

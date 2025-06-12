@@ -1,0 +1,10 @@
+name: Folders
+form: $/pensoft/icp/models/folders/fields.yaml
+modelClass: Pensoft\Icp\Models\Folders
+defaultRedirect: pensoft/icp/folders
+create:
+    redirect: 'pensoft/icp/folders/update/:id'
+    redirectClose: pensoft/icp/folders
+update:
+    redirect: pensoft/icp/folders
+    redirectClose: pensoft/icp/folders

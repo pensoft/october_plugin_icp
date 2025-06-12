@@ -1,0 +1,4 @@
+title: Subfolders
+modelClass: Pensoft\Icp\Models\Subfolders
+toolbar:
+    buttons: reorder_toolbar
