@@ -1,0 +1,4 @@
+title: Folders
+modelClass: Pensoft\Icp\Models\Folders
+toolbar:
+    buttons: reorder_toolbar
